@@ -63,7 +63,7 @@
         }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800">
+<body>
     <div class="flex">
         <!-- Barra de Navegación Lateral Fija -->
         <aside class="sticky top-0 h-screen w-64 bg-white border-r border-slate-200 p-6 hidden lg:flex flex-col">
@@ -73,19 +73,19 @@
             </div>
             <nav class="flex-grow">
                 <ul class="space-y-2">
-                    <li><a href="#oportunidad" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">💡 La Oportunidad</a></li>
-                    <li><a href="#solucion" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">🚀 Nuestra Solución</a></li>
+                    <li><a href="#portada" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">🏠 Portada</a></li>
+                    <li><a href="#oportunidad" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">💡 Problema y Oportunidad</a></li>
+                    <li><a href="#solucion" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">🚀 La Solución</a></li>
+                    <li><a href="#uvp" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">✨ Propuesta de Valor</a></li>
+                    <li><a href="#analisis-mercado" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">📈 Análisis de Mercado</a></li>
                     <li><a href="#competencia" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">⚔️ Competencia</a></li>
-                    <li><a href="#benchmarking" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">📊 Benchmarking</a></li>
-                    <li><a href="#modelo" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">💰 Modelo de Negocio</a></li>
-                    <li><a href="#financieras" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">📈 Proyecciones</a></li>
-                    <li><a href="#roadmap" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">🗺️ Roadmap</a></li>
-                    <li><a href="#riesgos" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">⚠️ Análisis de Riesgos</a></li>
-                    <li><a href="#prelanzamiento" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">🎯 Pre-Lanzamiento</a></li>
+                    <li><a href="#producto-tecnologia" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">💻 Producto y Tecnología</a></li>
+                    <li><a href="#crecimiento-adquisicion" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">📊 Crecimiento y Adquisición</a></li>
+                    <li><a href="#proyecciones-saas" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">💰 Proyecciones y Métricas SaaS</a></li>
+                    <li><a href="#financiacion-uso" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">🤝 Financiación y Uso de Fondos</a></li>
+                    <li><a href="#roi-hitos" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">⭐ Retorno de Inversión y Hitos</a></li>
                     <li><a href="#equipo" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">👥 Equipo</a></li>
-                    <li><a href="#inversion" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">🤝 La Inversión</a></li>
-                    <li><a href="#roi-benchmarking" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">⭐ ROI Benchmarking</a></li>
-                    <li><a href="#proximospasos" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">➡️ Próximos Pasos</a></li>
+                    <li><a href="#cta" class="nav-link flex items-center gap-3 p-2 rounded-lg hover:bg-slate-100 transition-colors">➡️ Llamada a la Acción</a></li>
                 </ul>
             </nav>
             <div class="mt-auto text-center">
@@ -96,51 +96,51 @@
         <!-- Contenido Principal -->
         <main class="flex-1 overflow-y-auto">
             
-            <!-- Hero Section -->
-            <header class="relative bg-gradient-to-br from-indigo-100 via-white to-cyan-100 h-screen flex flex-col items-center justify-center text-center p-8">
-                <!-- Logo principal, sustituyendo el texto grande "VibeMarket" y ahora el triple de grande -->
+            <!-- Slide 1: Portada -->
+            <section id="portada" class="relative bg-gradient-to-br from-indigo-100 via-white to-cyan-100 h-screen flex flex-col items-center justify-center text-center p-8">
+                <!-- Logo principal -->
                 <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/logosinfondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvbG9nb3NpbmZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI1MywiZXhwIjoxODEzMDY2MjUzfQ.DbVtrInIMJBzBUKnkUt6hxseSEd-bFZgM2iKIVYdowU" alt="Logo principal de VibeMarket" class="h-80 mb-2 mx-auto">
-                <p class="text-xl md:text-2xl text-slate-700 max-w-3xl mb-8">El CMO Virtual impulsado por IA que democratiza el marketing digital para PYMEs y autónomos en España.</p>
+                <p class="text-xl md:text-2xl text-slate-700 max-w-3xl mb-8">Marketing digital automatizado con IA para autónomos y PYMEs.</p>
                 <a href="#oportunidad" class="bg-indigo-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-indigo-700 transition-transform hover:scale-105 shadow-lg">Descubre la Oportunidad</a>
-            </header>
+            </section>
 
-            <!-- Sección: La Oportunidad -->
+            <!-- Slide 2: Problema y Oportunidad -->
             <section id="oportunidad" class="py-20 px-8 bg-white relative">
-                <!-- Icono en la esquina superior derecha, ahora el doble de grande -->
+                <!-- Icono en la esquina superior derecha -->
                 <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
                 <div class="max-w-6xl mx-auto">
-                    <h2 class="text-4xl font-bold text-center mb-4">La Brecha Digital es Nuestra Oportunidad</h2>
-                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Millones de negocios en España necesitan desesperadamente digitalizarse, pero se enfrentan a barreras de coste, tiempo y complejidad. La brecha de digitalización es significativa, con solo el 30% de autónomos y el 45% de microempresas habiendo alcanzado un nivel básico de digitalización.</p>
+                    <h2 class="text-4xl font-bold text-center mb-4">Problema y Oportunidad: La Brecha Digital en PYMEs</h2>
+                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Muchas pequeñas empresas y autónomos en España carecen de tiempo, conocimientos y recursos para gestionar su marketing digital de forma eficaz. Un tercio de las PYMEs ni siquiera tiene presencia online; solo ~38,6% usan redes sociales y ~57,3% disponen de sitio web propio. Las opciones actuales (agencias costosas, múltiples herramientas complejas en inglés) resultan inaccesibles o poco eficientes para este segmento.</p>
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                         <div class="bg-slate-100 p-6 rounded-lg">
-                            <h3 class="text-3xl font-bold text-indigo-600">3.38M</h3>
-                            <p class="font-semibold text-slate-700">Autónomos en España</p>
+                            <h3 class="text-3xl font-bold text-indigo-600">2.9M+</h3>
+                            <p class="font-semibold text-slate-700">PYMEs en España</p>
                             <p class="text-sm text-slate-500">Un mercado masivo y desatendido.</p>
                         </div>
                         <div class="bg-slate-100 p-6 rounded-lg">
-                            <h3 class="text-3xl font-bold text-indigo-600">3M+</h3>
-                            <p class="font-semibold text-slate-700">Microempresas en España</p>
-                             <p class="text-sm text-slate-500">Un segmento clave del mercado objetivo.</p>
+                            <h3 class="text-3xl font-bold text-indigo-600">~38.6%</h3>
+                            <p class="font-semibold text-slate-700">PYMEs usan Redes Sociales</p>
+                             <p class="text-sm text-slate-500">Gran potencial de crecimiento digital.</p>
+                        </div>
+                        <div class="bg-slate-100 p-6 rounded-lg">
+                            <h3 class="text-3xl font-bold text-indigo-600">~57.3%</h3>
+                            <p class="font-semibold text-slate-700">PYMEs con Sitio Web</p>
+                             <p class="text-sm text-slate-500">Necesidad de optimización y visibilidad.</p>
+                        </div>
+                         <div class="bg-slate-100 p-6 rounded-lg">
+                            <h3 class="text-3xl font-bold text-indigo-600">89.9%</h3>
+                            <p class="font-semibold text-slate-700">Gerentes reconocen importancia online</p>
+                            <p class="text-sm text-slate-500">Conciencia, pero falta de herramientas.</p>
+                        </div>
+                        <div class="bg-slate-100 p-6 rounded-lg">
+                            <h3 class="text-3xl font-bold text-indigo-600">15%</h3>
+                            <p class="font-semibold text-slate-700">Planean digitalizar en 12 meses</p>
+                            <p class="text-sm text-slate-500">Demanda latente y activa.</p>
                         </div>
                         <div class="bg-slate-100 p-6 rounded-lg">
                             <h3 class="text-3xl font-bold text-indigo-600">€3.067M</h3>
                             <p class="font-semibold text-slate-700">Fondos "Kit Digital"</p>
-                             <p class="text-sm text-slate-500">El momento para invertir es ahora.</p>
-                        </div>
-                         <div class="bg-slate-100 p-6 rounded-lg">
-                            <h3 class="text-3xl font-bold text-indigo-600">99%</h3>
-                            <p class="font-semibold text-slate-700">PYMEs del tejido empresarial</p>
-                            <p class="text-sm text-slate-500">El núcleo de la economía española.</p>
-                        </div>
-                        <div class="bg-slate-100 p-6 rounded-lg">
-                            <h3 class="text-3xl font-bold text-indigo-600">€8.16B</h3>
-                            <p class="font-semibold text-slate-700">Mercado SaaS España 2024</p>
-                            <p class="text-sm text-slate-500">Gran potencial de crecimiento.</p>
-                        </div>
-                        <div class="bg-slate-100 p-6 rounded-lg">
-                            <h3 class="text-3xl font-bold text-indigo-600">19%</h3>
-                            <p class="font-semibold text-slate-700">CAGR hasta 2029</p>
-                            <p class="text-sm text-slate-500">Crecimiento anual compuesto.</p>
+                            <p class="text-sm text-slate-500">Apoyo gubernamental a la digitalización.</p>
                         </div>
                     </div>
                      <div class="chart-container">
@@ -149,26 +149,26 @@
                 </div>
             </section>
 
-            <!-- Sección: Nuestra Solución -->
+            <!-- Slide 3: La Solución – Vibemarket y “Vimo” -->
             <section id="solucion" class="py-20 px-8 bg-slate-50 relative">
-                <!-- Icono en la esquina superior derecha, ahora el doble de grande -->
+                <!-- Icono en la esquina superior derecha -->
                 <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
                 <div class="max-w-6xl mx-auto">
-                    <h2 class="text-4xl font-bold text-center mb-4">Presentamos a Vimo, tu CMO Virtual</h2>
-                     <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">VibeMarket no es otra herramienta de marketing. Es una plataforma "todo en uno" que automatiza el flujo completo de marketing, desde la estrategia hasta la ejecución, gracias a nuestra IA especializada en el mercado español.</p>
+                    <h2 class="text-4xl font-bold text-center mb-4">La Solución: Vibemarket y “Vimo”</h2>
+                     <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Vibemarket es una plataforma SaaS todo-en-uno de marketing digital automatizado, potenciada por nuestro asistente virtual de IA llamado “Vimo”. Vimo guía al usuario paso a paso, automatizando tareas de marketing (creación de posts, anuncios, emails) y ofreciendo recomendaciones inteligentes en tiempo real. La solución está diseñada específicamente para autónomos y PYMEs españolas, con experiencia 100% en español y adaptada a las necesidades locales de este público.</p>
                     <div class="grid md:grid-cols-2 gap-8 items-center">
                         <div class="space-y-6">
                             <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
-                                <h4 class="text-xl font-bold text-indigo-600 mb-2">Automatización End-to-End</h4>
-                                <p class="text-slate-600">Olvídate de la configuración manual. Vimo investiga tu marca, analiza tu competencia y lanza campañas optimizadas por ti.</p>
+                                <h4 class="text-xl font-bold text-indigo-600 mb-2">Asistente IA “Vimo”</h4>
+                                <p class="text-slate-600">Actúa como un consultor virtual de marketing. Genera contenidos atractivos (p. ej. publicaciones en redes sociales, textos publicitarios) adaptados al sector del cliente, sugiere el mejor momento para publicar y optimiza las campañas según resultados. Todo ello en lenguaje natural y entendible, sin jerga técnica.</p>
                             </div>
                              <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
-                                <h4 class="text-xl font-bold text-indigo-600 mb-2">IA Especializada en España</h4>
-                                <p class="text-slate-600">Nuestra IA no solo habla español, entiende la cultura, los matices locales y las tendencias del mercado para crear contenido que resuena.</p>
+                                <h4 class="text-xl font-bold text-indigo-600 mb-2">Plataforma Todo-en-Uno</h4>
+                                <p class="text-slate-600">Vibemarket centraliza las funciones clave – gestión de redes sociales, email marketing, publicidad online (Google/Facebook Ads), SEO local y análisis de resultados – en un solo panel sencillo. El usuario puede planificar, ejecutar y medir sus campañas digitales desde la misma herramienta, con la ayuda proactiva de Vimo en cada paso.</p>
                             </div>
                              <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
-                                <h4 class="text-xl font-bold text-teal-600 mb-2">Aprobación por WhatsApp</h4>
-                                <p class="text-slate-600">Gestiona y aprueba todo el contenido desde tu móvil. Marketing potente, control sencillo.</p>
+                                <h4 class="text-xl font-bold text-teal-600 mb-2">Facilidad y Ahorro</h4>
+                                <p class="text-slate-600">Al automatizar y simplificar el marketing, la plataforma ahorra tiempo y costes a las PYMEs. No se requiere contratar un equipo de marketing ni aprender a usar múltiples softwares; Vibemarket democratiza el marketing digital, haciéndolo accesible incluso para quienes tienen conocimientos limitados.</p>
                             </div>
                         </div>
                         <div class="bg-white p-8 rounded-lg shadow-lg">
@@ -206,163 +206,210 @@
                 </div>
             </section>
             
-            <!-- Sección: Competencia -->
-            <section id="competencia" class="py-20 px-8 bg-white relative">
-                <!-- Icono en la esquina superior derecha, ahora el doble de grande -->
+            <!-- Slide 4: Propuesta de Valor Única (UVP) -->
+            <section id="uvp" class="py-20 px-8 bg-white relative">
+                <!-- Icono en la esquina superior derecha -->
                 <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
                 <div class="max-w-6xl mx-auto">
-                     <h2 class="text-4xl font-bold text-center mb-4">Nuestra Ventaja en un Mercado Fragmentado</h2>
-                     <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Las soluciones actuales son demasiado caras, complejas o limitadas para las PYMEs. Vibemarket ofrece una solución integral y asequible, posicionándose en un nicho único.</p>
+                     <h2 class="text-4xl font-bold text-center mb-4">Nuestra Propuesta de Valor Única</h2>
+                     <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Vibemarket se diferencia por su enfoque en la IA local, la simplicidad todo-en-uno, un modelo asequible y una marca moderna, diseñada para el emprendedor español.</p>
+                     <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">IA en Español para PYMEs</h3>
+                            <p class="text-slate-600">Vibemarket integra a Vimo, un asistente de IA nativo en español, entrenado en marketing digital. A diferencia de herramientas genéricas, Vimo entiende el contexto local y las necesidades de una PYME española, proporcionando consejos y contenido altamente relevante.</p>
+                        </div>
+                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Simplicidad Todo-en-Uno</h3>
+                            <p class="text-slate-600">Unificamos en una sola plataforma intuitiva lo que normalmente requeriría varias herramientas separadas (gestor de redes, emailing, diseñador, analítica). Esta simplicidad disminuye la curva de aprendizaje y elimina la fricción: en minutos, un negocio puede lanzar su campaña multicanal con asistencia inteligente.</p>
+                        </div>
+                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Asequible y Escalable</h3>
+                            <p class="text-slate-600">Modelo SaaS de bajo costo pensado para presupuestos ajustados. Permite a pequeños negocios acceder a automatizaciones de marketing avanzadas por una fracción del coste de una agencia. El alto valor de por vida del cliente (LTV ~€350) frente a un CAC bajo (~€175) nos permite mantener precios accesibles y crecer de forma rentable.</p>
+                        </div>
+                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Enfoque Local y Marca Moderna</h3>
+                            <p class="text-slate-600">Identidad de marca fresca y profesional, diseñada para conectar con el emprendedor español. Vibemarket habla el idioma (literal y figuradamente) de las PYMEs locales, generando confianza. Este enfoque cultural y de mercado nos diferencia de soluciones extranjeras que no se adaptan al entorno español.</p>
+                        </div>
+                     </div>
+                </div>
+            </section>
+
+            <!-- Slide 5: Análisis de Mercado y Tendencias -->
+            <section id="analisis-mercado" class="py-20 px-8 bg-slate-50 relative">
+                <!-- Icono en la esquina superior derecha -->
+                <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-4xl font-bold text-center mb-4">Análisis de Mercado y Tendencias</h2>
+                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">El mercado de las PYMEs en España es vasto y está en pleno proceso de digitalización, impulsado por el crecimiento del gasto en marketing digital y la consolidación de la IA como motor de eficiencia.</p>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+                        <div class="bg-white p-6 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Gran Mercado de PYMEs</h3>
+                            <p class="text-slate-600">España cuenta con ~2,9 millones de PYMEs que aportan ~62% del empleo. Un segmento significativo de estas empresas aún no aprovecha plenamente el marketing digital, lo que representa una oportunidad de mercado considerable para Vibemarket.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Digitalización en Auge</h3>
+                            <p class="text-slate-600">Iniciativas gubernamentales como Kit Digital han impulsado la adopción tecnológica. Más de 100.000 PYMEs solicitaron el Kit Digital en 2022-2023, y alrededor del 60% planea invertir esas ayudas en mejorar visibilidad web, e-commerce o redes sociales. Esto indica un boom digitalizador: las empresas quieren fortalecer su marketing online ahora más que nunca.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Crecimiento del Gasto en Marketing Digital</h3>
+                            <p class="text-slate-600">La inversión empresarial en marketing digital en España alcanzó ~€3.640 millones en 2023 (un 6% más que el año anterior), actuando como motor del crecimiento del sector. Cada vez más presupuesto de marketing se destina a canales digitales, lo cual valida la demanda de herramientas eficientes para gestionarlos.</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Tendencia IA en Marketing</h3>
+                            <p class="text-slate-600">La inteligencia artificial se consolida como tendencia clave. El 85% de los negocios ya utiliza herramientas de IA para optimizar campañas, automatizar tareas y personalizar la experiencia al cliente. Esta aceptación generalizada de la IA en marketing respalda la propuesta de Vibemarket, que aprovecha IA avanzada para brindar capacidades antes reservadas a grandes empresas, ahora al alcance de las PYMEs.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 6: Panorama Competitivo y Diferenciación -->
+            <section id="competencia" class="py-20 px-8 bg-white relative">
+                <!-- Icono en la esquina superior derecha -->
+                <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
+                <div class="max-w-6xl mx-auto">
+                     <h2 class="text-4xl font-bold text-center mb-4">Panorama Competitivo y Diferenciación</h2>
+                     <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">El mercado está fragmentado, pero Vibemarket se posiciona de forma única al combinar automatización con IA y un enfoque local, superando las limitaciones de las soluciones existentes.</p>
                      <div class="overflow-x-auto">
                         <table class="w-full text-left border-collapse">
                             <thead>
                                 <tr>
-                                    <th class="py-4 px-6 bg-slate-100 font-bold uppercase text-sm text-slate-600 border-b border-slate-200">Competidor</th>
-                                    <th class="py-4 px-6 bg-slate-100 font-bold uppercase text-sm text-slate-600 border-b border-slate-200">Precio / Mes</th>
+                                    <th class="py-4 px-6 bg-slate-100 font-bold uppercase text-sm text-slate-600 border-b border-slate-200">Tipo de Competidor</th>
                                     <th class="py-4 px-6 bg-slate-100 font-bold uppercase text-sm text-slate-600 border-b border-slate-200">Debilidad Principal</th>
                                     <th class="py-4 px-6 bg-slate-100 font-bold uppercase text-sm text-slate-600 border-b border-slate-200">Ventaja Vibemarket</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr class="hover:bg-slate-50">
-                                    <td class="py-4 px-6 border-b border-slate-200">HubSpot</td>
-                                    <td class="py-4 px-6 border-b border-slate-200">€45+</td>
-                                    <td class="py-4 px-6 border-b border-slate-200">Complejo y caro para PYMEs</td>
-                                    <td class="py-4 px-6 border-b border-slate-200 text-green-600 font-semibold">Simple y Asequible</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">Agencias de Marketing Tradicional</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">Costes elevados, escalabilidad limitada, dependencia humana.</td>
+                                    <td class="py-4 px-6 border-b border-slate-200 text-green-600 font-semibold">Plataforma escalable a bajo coste.</td>
                                 </tr>
                                  <tr class="hover:bg-slate-50">
-                                    <td class="py-4 px-6 border-b border-slate-200">Mailchimp</td>
-                                    <td class="py-4 px-6 border-b border-slate-200">€13-20</td>
-                                    <td class="py-4 px-6 border-b border-slate-200">Funcionalidad limitada (email)</td>
-                                    <td class="py-4 px-6 border-b border-slate-200 text-green-600 font-semibold">Solución Integral</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">Herramientas de Marketing Genéricas (HubSpot, Mailchimp)</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">Complejas, en inglés, precios para grandes empresas.</td>
+                                    <td class="py-4 px-6 border-b border-slate-200 text-green-600 font-semibold">Simplicidad, en español, asequible.</td>
                                 </tr>
                                  <tr class="hover:bg-slate-50">
-                                    <td class="py-4 px-6 border-b border-slate-200">ActiveCampaign</td>
-                                    <td class="py-4 px-6 border-b border-slate-200">€29+</td>
-                                    <td class="py-4 px-6 border-b border-slate-200">Configuración manual, no end-to-end</td>
-                                    <td class="py-4 px-6 border-b border-slate-200 text-green-600 font-semibold">Automatización Completa</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">Soluciones Locales Emergentes (BeeDigital, Kit Digital)</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">Requieren intervención humana, no tienen IA automatizada.</td>
+                                    <td class="py-4 px-6 border-b border-slate-200 text-green-600 font-semibold">Automatización inteligente con Vimo.</td>
                                 </tr>
                             </tbody>
                         </table>
                      </div>
+                     <div class="mt-8 text-center">
+                        <h3 class="text-2xl font-bold text-indigo-600 mb-2">Diferenciación Clave – Vibemarket</h3>
+                        <p class="text-slate-600 max-w-3xl mx-auto">Nos destacamos por combinar automatización con IA + enfoque local. A diferencia de una agencia, nuestra plataforma escala a miles de usuarios a bajo coste. A diferencia de un software genérico, Vibemarket está hecho a la medida de las PYMEs españolas, en su idioma y con su estilo. Y somos pioneros integrando un asistente virtual (Vimo) que ningún competidor directo ofrece, lo que supone una ventaja de primer jugador en este nicho.</p>
+                     </div>
                 </div>
             </section>
 
-            <!-- Nueva Sección: Benchmarking Competitivo -->
-            <section id="benchmarking" class="py-20 px-8 bg-slate-50 relative">
-                <!-- Icono en la esquina superior derecha, ahora el doble de grande -->
+            <!-- Slide 7: Producto y Tecnología -->
+            <section id="producto-tecnologia" class="py-20 px-8 bg-slate-50 relative">
+                <!-- Icono en la esquina superior derecha -->
                 <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
                 <div class="max-w-6xl mx-auto">
-                    <h2 class="text-4xl font-bold text-center mb-4">Validación con Benchmarks Industria SaaS</h2>
-                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Nuestras métricas clave se posicionan de forma competitiva, superando o alineándose con los estándares de la industria SaaS.</p>
-                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <div class="bg-white p-6 rounded-lg shadow-sm">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">LTV/CAC Ratio</h3>
-                            <p class="font-semibold text-slate-700">6:1 - 8:1</p>
-                            <p class="text-sm text-slate-500"> vs. Óptimo industria 3:1-6:1. Indica un modelo de negocio saludable.</p>
+                    <h2 class="text-4xl font-bold text-center mb-4">Producto y Tecnología: Arquitectura Robusta, Funcionalidad Esencial</h2>
+                     <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Vibemarket es una aplicación cloud construida con tecnología escalable, potenciada por IA de última generación y diseñada para una gestión digital centralizada y eficiente.</p>
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div class="space-y-6">
+                            <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                                <h4 class="text-xl font-bold text-indigo-600 mb-2">Arquitectura SaaS & IA</h4>
+                                <p class="text-slate-600">Vibemarket es una aplicación cloud (accesible vía web) construida con tecnología escalable. En su núcleo, incorpora modelos de Inteligencia Artificial de última generación (procesamiento de lenguaje natural) para alimentar a Vimo. La plataforma aprende de las interacciones y resultados de campañas para refinar sus recomendaciones con el tiempo (machine learning continuo).</p>
+                            </div>
+                             <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                                <h4 class="text-xl font-bold text-indigo-600 mb-2">Funcionalidades Clave</h4>
+                                <p class="text-slate-600">Desde un dashboard unificado, el usuario puede: Gestionar redes sociales (calendario de publicaciones automáticas optimizadas por Vimo). Enviar campañas de email marketing con contenidos generados por IA. Crear anuncios digitales (Google Ads, Facebook/Instagram) con textos e imágenes sugeridos por la IA, y segmentaciones recomendadas. Monitorear métricas de rendimiento (MRR, ROI de campañas, crecimiento en seguidores) con analíticas simplificadas.</p>
+                            </div>
+                             <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
+                                <h4 class="text-xl font-bold text-teal-600 mb-2">Integraciones y Estado de Desarrollo</h4>
+                                <p class="text-slate-600">El producto se integra con las principales plataformas: API de Facebook/Instagram, Google Business Profile, Google Ads, WhatsApp Business, etc. Actualmente contamos con un MVP funcional en fase alfa. Con la financiación solicitada, estimamos lanzar una beta privada en ~3 meses tras la ronda, para terminar de pulir Vimo y la experiencia de usuario. La tecnología está lista para empezar a incorporar usuarios piloto, validar feedback e iterar rápidamente.</p>
+                            </div>
                         </div>
-                        <div class="bg-white p-6 rounded-lg shadow-sm">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">CAC (Costo de Adquisición)</h3>
-                            <p class="font-semibold text-slate-700">€350-400</p>
-                            <p class="text-sm text-slate-500"> vs. Promedio industria €728. Mayor eficiencia en la adquisición de clientes.</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-lg shadow-sm">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Market Share (Año 5)</h3>
-                            <p class="font-semibold text-slate-700">0.248%</p>
-                            <p class="text-sm text-slate-500">Proyección ultra-conservadora que minimiza el riesgo de mercado.</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-lg shadow-sm">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Precio de Entrada</h3>
-                            <p class="font-semibold text-slate-700">€29/mes</p>
-                            <p class="text-sm text-slate-500"> vs. HubSpot €45+. Una ventaja competitiva del 37%.</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-lg shadow-sm md:col-span-2 lg:col-span-1">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Break-Even Operativo</h3>
-                            <p class="font-semibold text-slate-700">Mes 18</p>
-                            <p class="text-sm text-slate-500"> vs. Promedio SaaS 12-24 meses. Un timeline realista y manejable.</p>
+                        <div class="bg-white p-8 rounded-lg shadow-lg">
+                           <h4 class="text-2xl font-bold text-center mb-6">Stack Tecnológico (MVP)</h4>
+                           <div class="relative space-y-8">
+                                <div class="absolute w-0.5 h-full bg-slate-200 left-4 top-0"></div>
+                                <div class="relative pl-12">
+                                    <div class="absolute w-5 h-5 bg-indigo-600 rounded-full left-1.5 top-1 border-4 border-white"></div>
+                                    <h5 class="font-bold">Frontend: Bolt.new (React-based)</h5>
+                                    <p class="text-sm text-slate-500">Interfaz de usuario moderna y reactiva.</p>
+                                </div>
+                                <div class="relative pl-12">
+                                    <div class="absolute w-5 h-5 bg-indigo-600 rounded-full left-1.5 top-1 border-4 border-white"></div>
+                                    <h5 class="font-bold">Backend: Supabase</h5>
+                                    <p class="text-sm text-slate-500">Base de datos y autenticación escalable.</p>
+                                </div>
+                                <div class="relative pl-12">
+                                    <div class="absolute w-5 h-5 bg-indigo-600 rounded-full left-1.5 top-1 border-4 border-white"></div>
+                                    <h5 class="font-bold">Automatización: n8n</h5>
+                                    <p class="text-sm text-slate-500">Flujos de trabajo de marketing automatizados.</p>
+                                </div>
+                                <div class="relative pl-12">
+                                    <div class="absolute w-5 h-5 bg-indigo-600 rounded-full left-1.5 top-1 border-4 border-white"></div>
+                                    <h5 class="font-bold">IA/Análisis: OpenAI/Claude APIs</h5>
+                                    <p class="text-sm text-slate-500">Inteligencia artificial para generación y optimización.</p>
+                                </div>
+                                <div class="relative pl-12">
+                                    <div class="absolute w-5 h-5 bg-indigo-600 rounded-full left-1.5 top-1 border-4 border-white"></div>
+                                    <h5 class="font-bold">Integraciones Clave</h5>
+                                    <p class="text-sm text-slate-500">Meta Business, Google Analytics, WhatsApp Business API.</p>
+                                </div>
+                           </div>
                         </div>
                     </div>
                 </div>
             </section>
-
-
-            <!-- Sección: Modelo de Negocio -->
-            <section id="modelo" class="py-20 px-8 bg-slate-50 relative">
-                <!-- Icono en la esquina superior derecha, ahora el doble de grande -->
+            
+            <!-- Slide 8: Estrategia de Crecimiento y Adquisición -->
+            <section id="crecimiento-adquisicion" class="py-20 px-8 bg-white relative">
+                <!-- Icono en la esquina superior derecha -->
                 <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
                 <div class="max-w-6xl mx-auto">
-                    <h2 class="text-4xl font-bold text-center mb-4">Un Modelo de Negocio SaaS Escalable</h2>
-                     <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Nuestro modelo Freemium está diseñado para una rápida adquisición de usuarios, con planes de pago que ofrecen un valor inmenso a medida que los negocios crecen.</p>
-                    <div class="grid lg:grid-cols-3 gap-8">
-                        <div class="border border-slate-200 rounded-lg p-8 text-center">
-                            <h3 class="text-2xl font-bold mb-4">Starter</h3>
-                            <p class="text-4xl font-extrabold mb-2">€29<span class="text-lg font-medium text-slate-500">/mes</span></p>
-                            <p class="text-slate-500 mb-6">Perfecto para empezar (15 días de prueba gratuitos)</p>
-                            <ul class="text-left space-y-2">
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> Hasta 30 posts automáticos/mes</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> 2 redes sociales conectadas</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> Generación de contenido IA básica</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> Analytics básicos</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> Soporte por email</li>
-                            </ul>
+                     <h2 class="text-4xl font-bold text-center mb-4">Estrategia de Crecimiento y Adquisición: Un Enfoque Multicanal Escalable</h2>
+                     <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Nuestra estrategia combina canales orgánicos y pagados, apalancándose en la tecnología y alianzas para una adquisición eficiente y un CAC bajo.</p>
+                     <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Marketing de Contenidos y SEO</h3>
+                            <p class="text-slate-600">Posicionar a Vibemarket como referente en “marketing digital para PYMEs” mediante blog, webinars y guías prácticas. Esto atraerá tráfico orgánico cualificado (dueños de negocios buscando soluciones) sin depender exclusivamente de publicidad paga.</p>
                         </div>
-                         <div class="border-2 border-indigo-600 rounded-lg p-8 text-center relative shadow-2xl scale-105">
-                             <span class="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded-full">MÁS POPULAR</span>
-                            <h3 class="text-2xl font-bold mb-4">Professional</h3>
-                            <p class="text-5xl font-extrabold mb-2 text-indigo-600">€79<span class="text-lg font-medium text-slate-500">/mes</span></p>
-                            <p class="text-slate-500 mb-6">Para negocios en crecimiento</p>
-                             <ul class="text-left space-y-2">
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> Hasta 100 posts automáticos/mes</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> 5 redes sociales conectadas</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> IA avanzada + personalización marca</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> Analytics avanzados + insights IA</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> Campañas automatizadas</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> Soporte prioritario</li>
-                            </ul>
+                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Alianzas Estratégicas</h3>
+                            <p class="text-slate-600">Aprovechar redes de asociaciones de comerciantes, cámaras de comercio locales y colaboradores del programa Kit Digital. Ofrecer a estos partners comisiones o integraciones para que recomienden Vibemarket a sus PYMEs afiliadas, multiplicando el alcance con bajo coste de adquisición.</p>
                         </div>
-                         <div class="border border-slate-200 rounded-lg p-8 text-center">
-                            <h3 class="text-2xl font-bold mb-4">Enterprise</h3>
-                            <p class="text-4xl font-extrabold mb-2">€199<span class="text-lg font-medium text-slate-500">/mes</span></p>
-                             <p class="text-slate-500 mb-6">Para equipos y agencias</p>
-                              <ul class="text-left space-y-2">
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> Posts ilimitados</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> Redes sociales ilimitadas</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> IA enterprise + marca completa</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> Analytics enterprise + reporting</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> Múltiples marcas/clientes</li>
-                                <li class="flex items-center gap-2"><span class="text-teal-500">✔</span> Soporte dedicado + onboarding</li>
-                            </ul>
+                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Campañas Digitales Segmentadas</h3>
+                            <p class="text-slate-600">Realizar anuncios en redes sociales (Facebook, Instagram, LinkedIn) y Google dirigidos específicamente a autónomos y pequeños empresarios por zona geográfica e intereses. Mensajes enfocados en “automatiza tu marketing fácilmente”. Nuestro objetivo es mantener un CAC ≈ €175, optimizando constantemente con ayuda de la IA para mejorar la conversión de leads a suscriptores.</p>
                         </div>
-                    </div>
+                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Modelo Freemium/Prueba Gratuita y Referidos</h3>
+                            <p class="text-slate-600">Ofrecer una versión de entrada gratuita (o trial de 14 días) para eliminar barreras de adopción. Una vez dentro, Vimo demostrará rápidamente valor generando campañas reales para el usuario, facilitando la conversión a planes de pago. Incentivar que los usuarios satisfechos y agencias colaboradoras refieran nuevas PYMEs (por ejemplo, 1 mes gratis por cada referido que se suscriba). Las recomendaciones de confianza dentro del tejido empresarial local ayudarán a bajar aún más el CAC y a crear comunidad en torno a Vibemarket.</p>
+                        </div>
+                     </div>
                 </div>
             </section>
 
-             <!-- Sección: Proyecciones Financieras -->
-            <section id="financieras" class="py-20 px-8 bg-white relative">
-                <!-- Icono en la esquina superior derecha, ahora el doble de grande -->
+            <!-- Slide 9: Proyecciones y Métricas SaaS -->
+            <section id="proyecciones-saas" class="py-20 px-8 bg-slate-50 relative">
+                <!-- Icono en la esquina superior derecha -->
                 <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
                 <div class="max-w-6xl mx-auto">
-                    <h2 class="text-4xl font-bold text-center mb-4">Proyecciones de Crecimiento Exponencial y Métricas Clave SaaS</h2>
-                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Nuestras proyecciones demuestran un camino claro hacia la rentabilidad y el liderazgo del mercado, respaldadas por unit economics sólidos y métricas SaaS optimizadas.</p>
+                    <h2 class="text-4xl font-bold text-center mb-4">Proyecciones y Métricas SaaS: Crecimiento Exponencial, Unit Economics Sólidos</h2>
+                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Nuestro modelo de negocio está diseñado para un crecimiento rápido y rentable, con métricas SaaS optimizadas que demuestran un alto potencial de escalabilidad.</p>
                     <div class="grid lg:grid-cols-2 gap-16 items-center mb-16">
                         <div class="chart-container h-96">
                             <canvas id="arrChart"></canvas>
                         </div>
                         <div class="space-y-6">
                             <div class="bg-slate-50 p-6 rounded-lg">
-                                <p class="text-sm text-slate-500">LTV / CAC Ratio</p>
-                                <p class="text-4xl font-bold text-teal-600">6:1 - 8:1 <span class="text-base font-normal text-slate-500">(Métricas alineadas con benchmarks SaaS ideales)</span></p>
-                                <p class="text-sm text-slate-500">Un modelo de adquisición altamente rentable y creíble para inversores.</p>
+                                <p class="text-sm text-slate-500">MRR Objetivo (12 meses)</p>
+                                <p class="text-4xl font-bold text-teal-600">~€20.000</p>
+                                <p class="text-sm text-slate-500">Basado en adquisición progresiva desde septiembre, demostrando tracción inicial.</p>
                             </div>
                             <div class="bg-slate-50 p-6 rounded-lg">
-                                <p class="text-sm text-slate-500">Proyección ARR (Año 5)</p>
-                                <p class="text-4xl font-bold text-indigo-600">€8.0M</p>
-                                <p class="text-sm text-slate-500">Con **6,800** usuarios de pago, crecimiento robusto y coherente.</p>
-                            </div>
-                            <div class="bg-slate-50 p-6 rounded-lg">
-                                <p class="text-sm text-slate-500">Break-Even Operativo</p>
-                                <p class="text-4xl font-bold text-indigo-600">Mes 18 <span class="text-base font-normal text-slate-500">(aprox. **538 usuarios / €50K MRR**)</span></p>
-                                <p class="text-sm text-slate-500">Recuperación de la inversión de marketing en un timeline realista para SaaS B2B.</p>
+                                <p class="text-sm text-slate-500">CAC Payback</p>
+                                <p class="text-4xl font-bold text-indigo-600">~4 meses</p>
+                                <p class="text-sm text-slate-500">Un periodo de recuperación de la inversión en adquisición muy saludable.</p>
                             </div>
                         </div>
                     </div>
@@ -371,331 +418,236 @@
                     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <div class="bg-slate-100 p-6 rounded-lg">
                             <p class="text-sm text-slate-500">CAC (Costo de Adquisición de Cliente)</p>
-                            <p class="text-3xl font-bold text-indigo-600">€350-400</p>
-                            <p class="text-sm text-slate-500">Fully-loaded CAC, aún competitivo vs benchmark de €728.</p>
+                            <p class="text-3xl font-bold text-indigo-600">€175</p>
+                            <p class="text-sm text-slate-500">Presupuesto de €70K para adquirir ~400 clientes, optimizando eficiencia.</p>
                         </div>
                         <div class="bg-slate-100 p-6 rounded-lg">
                             <p class="text-sm text-slate-500">LTV (Valor de Vida del Cliente)</p>
-                            <p class="text-3xl font-bold text-indigo-600">€2,100-€3,200</p>
-                            <p class="text-sm text-slate-500">LTV objetivo para un LTV/CAC de 6:1 a 8:1.</p>
+                            <p class="text-3xl font-bold text-indigo-600">€350</p>
+                            <p class="text-sm text-slate-500">Conservador, con objetivo de escalar a €500 vía fidelización y planes premium.</p>
                         </div>
                         <div class="bg-slate-100 p-6 rounded-lg">
+                            <p class="text-sm text-slate-500">LTV/CAC Ratio</p>
+                            <p class="text-3xl font-bold text-indigo-600">2:1</p>
+                            <p class="text-sm text-slate-500">Objetivo de 3:1, mostrando un modelo rentable y escalable.</p>
+                        </div>
+                        <div class="bg-slate-100 p-6 rounded-lg md:col-span-2 lg:col-span-1">
+                            <p class="text-sm text-slate-500">Churn Rate</p>
+                            <p class="text-3xl font-bold text-indigo-600">6–7%</p>
+                            <p class="text-sm text-slate-500">Esperado en etapa inicial, con estrategia de onboarding + soporte para reducirlo <5%.</p>
+                        </div>
+                        <div class="bg-slate-100 p-6 rounded-lg md:col-span-2 lg:col-span-1">
                             <p class="text-sm text-slate-500">Tasa de Conversión Freemium a Pago</p>
                             <p class="text-3xl font-bold text-indigo-600">40% Objetivo</p>
                             <p class="text-sm text-slate-500">Un embudo de conversión optimizado.</p>
                         </div>
-                        <div class="bg-slate-100 p-6 rounded-lg md:col-span-2 lg:col-span-1">
-                            <p class="text-sm text-slate-500">Churn Rate</p>
-                            <p class="text-3xl font-bold text-indigo-600">8% (Año 1) → 4% (Año 5)</p>
-                            <p class="text-sm text-slate-500">Foco en la retención y satisfacción del cliente.</p>
-                        </div>
-                        <div class="bg-slate-100 p-6 rounded-lg md:col-span-2 lg:col-span-1">
-                            <p class="text-sm text-slate-500">Distribución de Planes</p>
-                            <p class="text-3xl font-bold text-indigo-600">20% Starter, 60% Pro, 20% Enterprise</p>
-                            <p class="text-sm text-slate-500">Estrategia para maximizar MRR.</p>
-                        </div>
+                    </div>
+                     <div class="mt-8 bg-slate-100 p-6 rounded-lg">
+                        <h3 class="text-2xl font-bold text-indigo-600 mb-2">Escalabilidad Financiera</h3>
+                        <p class="text-slate-600">Con los fondos solicitados, proyectamos ~12–18 meses de runway, suficientes para iterar el producto, validar el market fit y escalar la base inicial de clientes. A partir de ese punto, el crecimiento orgánico y las eficiencias de escala deberían reducir el CAC y ampliar márgenes, abriendo la puerta a rondas posteriores de inversión con métricas sólidas.</p>
+                     </div>
+
+                    <h3 class="text-3xl font-bold text-center mt-16 mb-8">Escenarios de Crecimiento Proyectado (Año 5)</h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr>
+                                    <th class="py-4 px-6 bg-slate-100 font-bold uppercase text-sm text-slate-600 border-b border-slate-200">Métrica</th>
+                                    <th class="py-4 px-6 bg-slate-100 font-bold uppercase text-sm text-slate-600 border-b border-slate-200">ESCENARIO BASE (Conservador)</th>
+                                    <th class="py-4 px-6 bg-slate-100 font-bold uppercase text-sm text-slate-600 border-b border-slate-200">ESCENARIO OPTIMISTA (Upside)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-4 px-6 border-b border-slate-200 font-semibold">ARR Estimado (Año 5)</td>
+                                    <td class="py-4 px-6 border-b border-slate-200 text-indigo-600 font-bold">€700.000</td>
+                                    <td class="py-4 px-6 border-b border-slate-200 text-teal-600 font-bold">€1.500.000</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-4 px-6 border-b border-slate-200 font-semibold">MRR Esperado</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">€58.000</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">€125.000</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-4 px-6 border-b border-slate-200 font-semibold">Clientes Estimados</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">~1.200 (€50/mes promedio)</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">~2.500 (€50/mes promedio)</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-4 px-6 border-b border-slate-200 font-semibold">Justificación</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">Crecimiento centrado solo en España, con adquisición progresiva en el sector de PYMEs mediante canales orgánicos y pagos.</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">Expansión comercial a Latinoamérica o Europa; desarrollo de funciones premium con pricing escalable y planes enterprise. Adquisición vía partnerships sectoriales, upselling de funcionalidades avanzadas (email AI, CRM, automatización), retención superior con Customer Success activo.</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-4 px-6 border-b border-slate-200 font-semibold">Valoración Proyectada (7x ARR)</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">€4.9M</td>
+                                    <td class="py-4 px-6 border-b border-slate-200">€10.5M</td>
+                                </tr>
+                                <tr class="hover:bg-slate-50">
+                                    <td class="py-4 px-6 border-b border-slate-200 font-semibold">Retorno Inversor Pre-Seed (20% equity inicial, dilución final ~12.8%)</td>
+                                    <td class="py-4 px-6 border-b border-slate-200 text-indigo-600 font-bold">x3.1 sobre €200K (~€620K)</td>
+                                    <td class="py-4 px-6 border-b border-slate-200 text-teal-600 font-bold">x6.7 sobre €200K (~€1.34M)</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </section>
 
-            <!-- Sección: Roadmap -->
-            <section id="roadmap" class="py-20 px-8 bg-white relative">
-                <!-- Icono en la esquina superior derecha, ahora el doble de grande -->
-                <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
-                <div class="max-w-4xl mx-auto">
-                    <h2 class="text-4xl font-bold text-center mb-16">Nuestra Hoja de Ruta hacia el Éxito</h2>
-                     <div class="relative">
-                        <div class="roadmap-line hidden sm:block"></div>
-                        <div class="space-y-12">
-                            <div class="relative flex items-start gap-6">
-                                <!-- Ajustado el tamaño para que el texto sea más legible y esté centrado -->
-                                <div class="h-14 w-20 bg-indigo-600 text-white flex items-center justify-center rounded-full z-10 flex-shrink-0 text-sm font-semibold">Q3 '25</div>
-                                <div class="bg-slate-50 p-6 rounded-lg flex-grow">
-                                    <h4 class="font-bold text-lg">Lanzamiento MVP y Primeros Hitos</h4>
-                                    <p class="text-slate-600">Finalización del MVP, lanzamiento de la beta, validación del product-market fit.</p>
-                                    <ul class="text-sm text-slate-500 mt-2 list-disc pl-5">
-                                        <li>Mes 3: **60** usuarios de pago, **€5.580** MRR (aprox).</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="relative flex items-start gap-6">
-                                <!-- Ajustado el tamaño para que el texto sea más legible y esté centrado -->
-                                <div class="h-14 w-20 bg-indigo-600 text-white flex items-center justify-center rounded-full z-10 flex-shrink-0 text-sm font-semibold">Q4 '25</div>
-                                <div class="bg-slate-50 p-6 rounded-lg flex-grow">
-                                    <h4 class="font-bold text-lg">Crecimiento Inicial y Adquisición Acelerada</h4>
-                                    <p class="text-slate-600">Escalamiento del marketing para alcanzar más usuarios, formalización de partnerships estratégicos, impulsado por el aumento de capital.</p>
-                                     <ul class="text-sm text-slate-500 mt-2 list-disc pl-5">
-                                        <li>Mes 6: **500** usuarios de pago (aprox.).</li>
-                                    </ul>
-                                </div>
-                            </div>
-                             <div class="relative flex items-start gap-6">
-                                <!-- Ajustado el tamaño para que el texto sea más legible y esté centrado -->
-                                <div class="h-14 w-20 bg-indigo-600 text-white flex items-center justify-center rounded-full z-10 flex-shrink-0 text-sm font-semibold">2026</div>
-                                <div class="bg-slate-50 p-6 rounded-lg flex-grow">
-                                    <h4 class="font-bold text-lg">Consolidación y Break-Even Operativo</h4>
-                                    <p class="text-slate-600">Integración de CRM, desarrollo de analytics avanzados, implementación de más integraciones.</p>
-                                     <ul class="text-sm text-slate-500 mt-2 list-disc pl-5">
-                                        <li>Mes 12: **600** usuarios de pago (aprox.), **€650K** ARR (aprox.).</li>
-                                        <li>Mes 18: Break-even operativo (aprox. **538 usuarios / €50K MRR**).</li>
-                                    </ul>
-                                </div>
-                            </div>
-                              <div class="relative flex items-start gap-6">
-                                <!-- Ajustado el tamaño para que el texto sea más legible y esté centrado -->
-                                <div class="h-14 w-20 bg-indigo-600 text-white flex items-center justify-center rounded-full z-10 flex-shrink-0 text-sm font-semibold">2027+</div>
-                                <div class="bg-slate-50 p-6 rounded-lg flex-grow">
-                                    <h4 class="font-bold text-lg">Expansión Internacional y Preparación Serie A</h4>
-                                    <p class="text-slate-600">Entrada en mercados de LATAM y sur de Europa (Portugal, Italia, Francia) con necesidades similares, y desarrollo de funciones enterprise.</p>
-                                    <ul class="text-sm text-slate-500 mt-2 list-disc pl-5">
-                                        <li>Mes 24: Preparación Serie A con **€1.5M+** ARR.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Sección: Análisis de Riesgos -->
-            <section id="riesgos" class="py-20 px-8 bg-slate-50 relative">
-                <!-- Icono en la esquina superior derecha, ahora el doble de grande -->
+            <!-- Slide 10: Financiación y Uso de Fondos -->
+            <section id="financiacion-uso" class="py-20 px-8 bg-white relative">
+                <!-- Icono en la esquina superior derecha -->
                 <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
                 <div class="max-w-6xl mx-auto">
-                    <h2 class="text-4xl font-bold text-center mb-4">Análisis y Mitigación de Riesgos</h2>
-                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Hemos identificado los riesgos clave y desarrollado estrategias de mitigación para asegurar la estabilidad y el crecimiento de VibeMarket.</p>
-                    <div class="grid md:grid-cols-2 gap-8">
-                        <div class="bg-white p-6 rounded-lg shadow-sm">
-                            <h3 class="text-2xl font-bold text-red-600 mb-2">Riesgo Técnico</h3>
-                            <p class="font-semibold text-slate-700 mb-2">Complejidad de integración de APIs, escalabilidad de la IA.</p>
-                            <p class="text-slate-600">**Mitigación:** Utilizamos un stack tecnológico probado, apostamos por el desarrollo iterativo, realizamos testing continuo y establecemos partnerships con proveedores de IA de primer nivel.</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-lg shadow-sm">
-                            <h3 class="text-2xl font-bold text-red-600 mb-2">Riesgo de Mercado</h3>
-                            <p class="font-semibold text-slate-700 mb-2">Lenta adopción del producto o fuerte competencia de grandes players.</p>
-                            <p class="text-slate-600">**Mitigación:** Realizamos una validación beta intensiva, ofrecemos un pricing disruptivo y mantenemos un foco claro en el mercado español para diferenciarnos.</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-lg shadow-sm">
-                            <h3 class="text-2xl font-bold text-red-600 mb-2">Riesgo Competitivo</h3>
-                            <p class="font-semibold text-slate-700 mb-2">Grandes competidores (ej. HubSpot/Mailchimp) lanzan un producto similar.</p>
-                            <p class="text-slate-600">**Mitigación:** Nuestra diferenciación clave es la IA especializada en el mercado español, apoyada por partnerships locales y el "first-mover advantage" en nuestro nicho.</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-lg shadow-sm">
-                            <h3 class="text-2xl font-bold text-red-600 mb-2">Riesgo Financiero</h3>
-                            <p class="font-semibold text-slate-700 mb-2">Alto "burn rate" o CAC (Costo de Adquisición de Cliente) superior a las proyecciones.</p>
-                            <p class="text-slate-600">**Mitigación:** Implementamos un tracking semanal de métricas, estamos preparados para un pivot rápido si es necesario, y mantenemos una reserva para 6 meses de operaciones.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Sección: Pre-Lanzamiento -->
-            <section id="prelanzamiento" class="py-20 px-8 bg-white relative">
-                <!-- Icono en la esquina superior derecha, ahora el doble de grande -->
-                <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
-                <div class="max-w-6xl mx-auto">
-                    <h2 class="text-4xl font-bold text-center mb-4">Estrategia Pre-Lanzamiento: Generando Impulso</h2>
-                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Nuestra fase de pre-lanzamiento está diseñada para validar el mercado, generar expectación y asegurar nuestros primeros usuarios.</p>
-                    <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
-                        <div class="bg-slate-100 p-6 rounded-lg">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Meta-Marketing (Sept-Oct 2025)</h3>
-                            <p class="text-slate-600">Demostraremos la eficacia de VibeMarket usándolo para generar nuestros primeros 100 leads cualificados, probando el producto en tiempo real.</p>
-                        </div>
-                        <div class="bg-slate-100 p-6 rounded-lg">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Content Marketing (Oct-Nov)</h3>
-                            <p class="text-slate-600">Desarrollo de un blog especializado, webinars semanales y casos de estudio reales para atraer y educar a nuestro público objetivo.</p>
-                        </div>
-                        <div class="bg-slate-100 p-6 rounded-lg">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Partnerships Estratégicos (Q4 2025)</h3>
-                            <p class="text-slate-600">Colaboraciones clave con asociaciones como ATA, cámaras de comercio y redes de asesores fiscales para amplificar nuestro alcance.</p>
-                        </div>
-                        <div class="bg-slate-100 p-6 rounded-lg">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Programa Beta (Nov-Dic)</h3>
-                            <p class="text-slate-600">Selección de **20 early adopters en mes 1**, con escalamiento gradual posterior, que tendrán acceso gratuito durante 3 meses para obtener feedback intensivo y afinar el producto.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Sección: Equipo -->
-            <section id="equipo" class="py-20 px-8 bg-slate-50 relative">
-                <!-- Icono en la esquina superior derecha, ahora el doble de grande -->
-                <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
-                <div class="max-w-6xl mx-auto">
-                    <h2 class="text-4xl font-bold text-center mb-4">Nuestro Equipo: La Fuerza Detrás de VibeMarket</h2>
-                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Un equipo lean con la experiencia y la visión necesarias para ejecutar nuestra ambiciosa hoja de ruta.</p>
-                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-                        <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Founder/CEO: Pablo Barranco</h3>
-                            <p class="font-semibold text-slate-700">Marketing and Insights profesional con más de 10 años en compañías multinacionales de gran consumo.</p>
-                            <p class="text-sm text-slate-500 mt-2">Visión estratégica, partnerships y fundraising.</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">CTO</h3>
-                            <p class="font-semibold text-slate-700">A contratar</p>
-                            <p class="text-sm text-slate-500 mt-2">Arquitectura técnica, desarrollo y escalabilidad.</p>
-                        </div>
-                        <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Head of Growth</h3>
-                            <p class="font-semibold text-slate-700">A contratar</p>
-                            <p class="text-sm text-slate-500 mt-2">Adquisición de usuarios y optimización del funnel.</p>
-                        </div>
-                    </div>
-                    <div class="bg-slate-100 p-6 rounded-lg shadow-inner">
-                        <h3 class="text-2xl font-bold text-teal-600 mb-4">Filosofía y Colaboradores</h3>
-                        <p class="text-slate-600 mb-4">Operamos con un equipo lean, maximizando la eficiencia a través de tecnología y colaboraciones estratégicas:</p>
-                        <ul class="list-disc list-inside text-slate-600 space-y-1">
-                            <li>**Partners Estratégicos:** ATA, Cámaras de Comercio, red de asesores fiscales.</li>
-                            <li>**Advisors:** Ex-fundadores de SaaS, expertos en IA, mentores del sector.</li>
-                            <li>**Desarrollo:** Colaboración con freelancers especializados y agencias de desarrollo externas.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Sección: La Inversión -->
-            <section id="inversion" class="py-20 px-8 bg-slate-50 relative">
-                <!-- Icono en la esquina superior derecha, ahora el doble de grande -->
-                <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
-                <div class="max-w-6xl mx-auto">
-                    <h2 class="text-4xl font-bold text-center mb-4">Solicitud de Financiación Pre-Seed</h2>
-                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Buscamos una inversión inicial de **€200,000** para finalizar nuestro MVP, ejecutar una campaña de pre-lanzamiento exitosa y asegurar el talento clave para nuestro crecimiento.</p>
+                    <h2 class="text-4xl font-bold text-center mb-4">Financiación y Uso de Fondos</h2>
+                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Buscamos una inversión pre-seed de **€200.000** para acelerar el desarrollo, impulsar el marketing y asegurar el talento clave para nuestro crecimiento inicial.</p>
                      <div class="grid lg:grid-cols-2 gap-16 items-center">
                         <div class="space-y-6">
                             <h3 class="text-3xl font-bold">Uso Estratégico de Fondos</h3>
                             <p class="text-slate-600">Cada euro será invertido en áreas clave para validar el mercado y acelerar el crecimiento inicial.</p>
                             <ul class="space-y-2">
-                                <li><span class="font-bold text-indigo-600">65% (€130,000)</span> - Marketing y Adquisición</li>
-                                <li><span class="font-bold text-indigo-600">25% (€50,000)</span> - Talento y Personal (Dev, CS)</li>
-                                <li><span class="font-bold text-indigo-600">10% (€20,000)</span> - Operaciones y Legal</li>
+                                <li><span class="font-bold text-indigo-600">50% (€100,000)</span> – Desarrollo de Producto: Mejoras de la plataforma e IA (contratación de 1-2 desarrolladores adicionales, coste de infraestructura cloud y APIs de IA).</li>
+                                <li><span class="font-bold text-indigo-600">30% (€60,000)</span> – Marketing y Ventas: Campañas de adquisición inicial (digital ads, contenido), creación de materiales de venta, participación en eventos/ferias de PYMEs, y programa de afiliados/partners.</li>
+                                <li><span class="font-bold text-indigo-600">15% (€30,000)</span> – Equipo y Operaciones: Contratación de talento clave (p. ej. un especialista en éxito del cliente para soporte a usuarios, y un perfil comercial para alianzas), así como gastos operativos básicos (legal, administración, oficinas virtuales).</li>
+                                <li><span class="font-bold text-indigo-600">5% (€10,000)</span> – Contingencia: Reserva para imprevistos y colchón de seguridad financiero que garantice la ejecución del plan incluso si surgen gastos no planificados.</li>
                             </ul>
                         </div>
                         <div class="chart-container h-80">
                             <canvas id="fundingChart"></canvas>
                         </div>
                     </div>
-                     <div class="mt-16 bg-white p-8 rounded-lg shadow-lg text-center">
-                        <h3 class="text-2xl font-bold mb-2">ROI Proyectado para Inversores</h3>
-                        <p class="text-5xl font-extrabold gradient-text mb-2">10x-20x</p>
-                        <p class="text-slate-600">Potencial de retorno en **3-5 años**, defendible según benchmarks europeos de SaaS y considerando la dilución por futuras rondas.</p>
-                        <p class="text-slate-600 text-sm mt-2">**Valoración año 3:** €12M-€17M (5x-7x ARR)</p>
-                        <p class="text-slate-600 text-sm">**ARR año 3 necesario:** €2.4M</p>
+                </div>
+            </section>
+
+            <!-- Slide 11: Retorno de Inversión (ROI) y Hitos -->
+            <section id="roi-hitos" class="py-20 px-8 bg-slate-50 relative">
+                <!-- Icono en la esquina superior derecha -->
+                <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-4xl font-bold text-center mb-4">Retorno de Inversión (ROI) y Hitos: Un Potencial Atractivo y Defendible</h2>
+                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Nuestras proyecciones de ROI son realistas y muy atractivas para inversores pre-seed, respaldadas por hitos claros y una estrategia de crecimiento sólida. El gráfico de ARR en la sección anterior representa nuestro **Escenario Base** de crecimiento.</p>
+                     <div class="mt-16 bg-white p-8 rounded-lg shadow-lg text-center mb-16">
+                        <h3 class="text-2xl font-bold mb-2">ROI Proyectado para Inversores (Escenario Base)</h3>
+                        <p class="text-5xl font-extrabold gradient-text mb-2">x3.1</p>
+                        <p class="text-slate-600">Potencial de retorno sobre **€200K** de inversión inicial en **3-5 años**.</p>
+                        <p class="text-slate-600 text-sm mt-2">**Valoración año 3 (base):** ~€2.75M-€3.85M (5x-7x ARR)</p>
+                        <p class="text-slate-600 text-sm">**ARR año 3 necesario (base):** ~€0.55M</p>
                         <p class="text-slate-600 text-sm">**Base de cálculo:** Múltiplos marketing automation 5x-7x ARR</p>
                         <p class="text-slate-600 text-xs mt-4">*(Nota sobre dilución: Los inversores pre-seed experimentarán dilución en futuras rondas de financiación (Serie A, B, etc.) a medida que la empresa crece y recauda más capital. Nuestro ROI proyectado considera esta dilución normal en startups de alto crecimiento, ofreciendo un retorno atractivo y realista.)*</p>
                     </div>
-                </div>
-            </section>
 
-            <!-- Nueva Sección: ROI Benchmarking -->
-            <section id="roi-benchmarking" class="py-20 px-8 bg-white relative">
-                <!-- Icono en la esquina superior derecha, ahora el doble de grande -->
-                <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
-                <div class="max-w-6xl mx-auto">
-                    <h2 class="text-4xl font-bold text-center mb-4">Benchmarking de ROI: Nuestro Retorno es Competitivo</h2>
-                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Nuestro ROI objetivo, aunque ajustado para el realismo, sigue siendo excepcionalmente atractivo para el capital de riesgo en el sector SaaS.</p>
-                    <div class="grid md:grid-cols-2 gap-8">
-                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">ROI Objetivo VibeMarket</h3>
-                            <p class="font-semibold text-slate-700">10x-20x en 3-5 años</p>
-                            <p class="text-sm text-slate-500">Un retorno sólido y bien justificado para una inversión pre-seed en SaaS.</p>
-                        </div>
-                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Media de Exits SaaS (Europa)</h3>
-                            <p class="font-semibold text-slate-700">5x-15x en 5-7 años</p>
-                            <p class="text-sm text-slate-500">Exits de empresas SaaS exitosas en el mercado europeo (fuente: informes de VC y M&A).</p>
-                        </div>
-                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm md:col-span-2">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Importancia de un ROI Realista</h3>
-                            <p class="text-slate-600">Los inversores de capital de riesgo buscan retornos significativos para compensar los riesgos inherentes a las startups. Si bien 68x-95x es ambicioso, **10x-20x es un objetivo muy fuerte y más creíble** para una empresa SaaS en fase inicial, especialmente considerando la dilución en rondas posteriores. Esto demuestra un entendimiento maduro del mercado y un plan de negocio sostenible.</p>
+                    <h3 class="text-3xl font-bold text-center mb-8">Hitos Clave (Post-Inversión)</h3>
+                    <div class="relative max-w-4xl mx-auto">
+                        <div class="roadmap-line hidden sm:block"></div>
+                        <div class="space-y-12">
+                            <div class="relative flex items-start gap-6">
+                                <div class="h-14 w-20 bg-indigo-600 text-white flex items-center justify-center rounded-full z-10 flex-shrink-0 text-sm font-semibold">0-3M</div>
+                                <div class="bg-slate-50 p-6 rounded-lg flex-grow">
+                                    <h4 class="font-bold text-lg">Lanzamiento Beta</h4>
+                                    <p class="text-slate-600">Entrega de la versión beta a un grupo cerrado de usuarios pilotos. Objetivo: obtener feedback temprano, validar la eficacia de Vimo en casos reales y pulir la UX. Hito: ~10-20 PYMEs usando la beta, primeros testimonios/casos de éxito iniciales.</p>
+                                </div>
+                            </div>
+                            <div class="relative flex items-start gap-6">
+                                <div class="h-14 w-20 bg-indigo-600 text-white flex items-center justify-center rounded-full z-10 flex-shrink-0 text-sm font-semibold">6M</div>
+                                <div class="bg-slate-50 p-6 rounded-lg flex-grow">
+                                    <h4 class="font-bold text-lg">Lanzamiento Público</h4>
+                                    <p class="text-slate-600">Versión 1.0 abierta al mercado español. Inicio de estrategia comercial a plena escala. Meta: alcanzar las primeras 100 PYMEs de pago en la plataforma, validando disposición a pagar y ajuste producto-mercado.</p>
+                                </div>
+                            </div>
+                             <div class="relative flex items-start gap-6">
+                                <div class="h-14 w-20 bg-indigo-600 text-white flex items-center justify-center rounded-full z-10 flex-shrink-0 text-sm font-semibold">12M</div>
+                                <div class="bg-slate-50 p-6 rounded-lg flex-grow">
+                                    <h4 class="font-bold text-lg">Crecimiento y Tracción</h4>
+                                    <p class="text-slate-600">Escalar la base de clientes a ~400 suscriptores activos. Hitos: MRR en torno a €20K, churn bajo (<5%), evidencia de que el modelo de adquisición funciona a gran escala.</p>
+                                </div>
+                            </div>
+                              <div class="relative flex items-start gap-6">
+                                <div class="h-14 w-20 bg-indigo-600 text-white flex items-center justify-center rounded-full z-10 flex-shrink-0 text-sm font-semibold">18M</div>
+                                <div class="bg-slate-50 p-6 rounded-lg flex-grow">
+                                    <h4 class="font-bold text-lg">Siguiente Ronda / Expansión</h4>
+                                    <p class="text-slate-600">Preparación de una ronda Seed/Serie A con métricas sólidas. Se proyecta multiplicar la valoración de la compañía aproximadamente x3–x5 respecto a la valoración actual, respaldada por ingresos recurrentes crecientes. Para los inversores pre-seed, esto implica un ROI significativo en el corto plazo (18-24 meses). Hito: haber consolidado a Vibemarket como referente en marketing digital para PYMEs en España, facilitando negociaciones con nuevos inversores en una posición de fuerza.</p>
+                                </div>
+                            </div>
+                             <div class="relative flex items-start gap-6">
+                                <div class="h-14 w-20 bg-indigo-600 text-white flex items-center justify-center rounded-full z-10 flex-shrink-0 text-sm font-semibold">3-5Y</div>
+                                <div class="bg-slate-50 p-6 rounded-lg flex-grow">
+                                    <h4 class="font-bold text-lg">Retorno a 3-5 años</h4>
+                                    <p class="text-slate-600">Vislumbramos diversas vías de exit o retorno a mediano plazo, ya sea vía una serie B/C con fondos internacionales, o eventualmente mediante adquisición por parte de una empresa mayor del sector SaaS/MarTech interesada en nuestra base de PYMEs. En cualquiera de los casos, los inversores actuales podrían obtener múltiplos atractivos de su inversión inicial si acompañamos el crecimiento proyectado.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Sección: Próximos Pasos -->
-            <section id="proximospasos" class="py-20 px-8 bg-slate-white relative">
-                <!-- Icono en la esquina superior derecha, ahora el doble de grande -->
+            <!-- Slide 12: Equipo -->
+            <section id="equipo" class="py-20 px-8 bg-white relative">
+                <!-- Icono en la esquina superior derecha -->
                 <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
                 <div class="max-w-6xl mx-auto">
-                    <h2 class="text-4xl font-bold text-center mb-4">Próximos Pasos: Acelerar Nuestro Impulso</h2>
-                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Nuestra estrategia para los próximos 90 días está enfocada en el cierre de la ronda, el desarrollo final del MVP y el lanzamiento de la beta pública.</p>
-                    <div class="grid md:grid-cols-3 gap-8 mb-12">
-                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Días 1-30: Fundraising</h3>
-                            <ul class="list-disc list-inside text-slate-600 space-y-1">
-                                <li>Cerrar ronda pre-seed de €200K.</li>
-                                <li>Finalizar la contratación del equipo técnico.</li>
-                                <li>Validar el MVP con los primeros 10 usuarios.</li>
-                            </ul>
+                    <h2 class="text-4xl font-bold text-center mb-4">Nuestro Equipo: La Fuerza Detrás de Vibemarket</h2>
+                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Un equipo con experiencia complementaria en negocio, tecnología y marketing, comprometido con la misión de Vibemarket.</p>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                        <div class="bg-slate-100 p-6 rounded-lg shadow-md text-center">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">CEO/Founder: Pablo Barranco</h3>
+                            <p class="font-semibold text-slate-700">Perfil de negocio con 10+ años en marketing e Insights y experiencia dirigiendo proyectos para PYMEs.</p>
+                            <p class="text-sm text-slate-500 mt-2">Aporta la visión estratégica y conocimiento profundo de las necesidades del cliente.</p>
                         </div>
-                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Días 31-60: Desarrollo</h3>
-                            <ul class="list-disc list-inside text-slate-600 space-y-1">
-                                <li>Ejecutar el sprint de desarrollo final del MVP.</li>
-                                <li>Completar la integración de las APIs principales.</li>
-                                <li>Realizar pruebas beta intensivas con 25 usuarios.</li>
-                            </ul>
+                        <div class="bg-slate-100 p-6 rounded-lg shadow-md text-center">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">CTO/Co-Founder</h3>
+                            <p class="font-semibold text-slate-700">Ingeniera de software especializada en IA y desarrollo SaaS (ex–empresa tecnológica).</p>
+                            <p class="text-sm text-slate-500 mt-2">Responsable de la arquitectura de la plataforma y de convertir a Vimo en un asistente inteligente de primer nivel.</p>
                         </div>
-                        <div class="bg-slate-100 p-6 rounded-lg shadow-sm">
-                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Días 61-90: Lanzamiento</h3>
-                            <ul class="list-disc list-inside text-slate-600 space-y-1">
-                                <li>Lanzar la beta pública con 100 usuarios activos.</li>
-                                <li>Monitorear las primeras métricas de tracción.</li>
-                                <li>Preparar la estrategia de marketing para el lanzamiento comercial.</li>
-                            </ul>
+                        <div class="bg-slate-100 p-6 rounded-lg shadow-md text-center">
+                            <h3 class="text-2xl font-bold text-indigo-600 mb-2">Head of Growth</h3>
+                            <p class="font-semibold text-slate-700">A contratar</p>
+                            <p class="text-sm text-slate-500 mt-2">Adquisición de usuarios y optimización del funnel.</p>
                         </div>
                     </div>
+                    <div class="bg-slate-100 p-6 rounded-lg shadow-inner">
+                        <h3 class="text-2xl font-bold text-teal-600 mb-4">Experiencia Relevante y Cultura</h3>
+                        <p class="text-slate-600 mb-4">Nuestro equipo núcleo ha trabajado previamente en startups y agencias, acumulando experiencia en áreas clave: automatización de marketing, analítica de datos y UX/UI enfocada en simplicidad. Contamos con el apoyo de mentores de la industria que nos asesoran en estrategia de mercado y crecimiento. Somos un equipo ágil y enfocado en la ejecución, apasionado por la IA y su potencial para democratizar el marketing.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 13: Llamada a la Acción -->
+            <section id="cta" class="py-20 px-8 bg-slate-50 relative">
+                <!-- Icono en la esquina superior derecha -->
+                <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/IconoNoFondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvSWNvbm9Ob0ZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI4MCwiZXhwIjoxODEzMDY2MjgwfQ.BIQPr6l4uwvIo7U46OIv3DsnDgOMpDMNN44fKMHxeA4" alt="VibeMarket Icono" class="absolute top-4 right-4 h-24 w-auto opacity-70">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-4xl font-bold text-center mb-4">¡Únete a Nuestra Visión!</h2>
+                    <p class="text-lg text-slate-600 text-center max-w-3xl mx-auto mb-16">Ahora es el momento de revolucionar el marketing de millones de PYMEs españolas con ayuda de la IA. Buscamos socios inversores que compartan nuestra pasión por empoderar a los pequeños negocios a través de la tecnología.</p>
                     <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-                        <h3 class="text-2xl font-bold mb-4">Métricas de Éxito para los Próximos 90 Días</h3>
-                        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                            <div class="flex flex-col items-center">
-                                <span class="text-5xl text-teal-600 mb-2">📊</span>
-                                <p class="text-3xl font-bold text-slate-800">100</p>
-                                <p class="text-slate-600">Usuarios beta activos</p>
-                            </div>
-                            <div class="flex flex-col items-center">
-                                <span class="text-5xl text-teal-600 mb-2">💰</span>
-                                <p class="text-3xl font-bold text-slate-800">€5K</p>
-                                <p class="text-slate-600">MRR Milestone</p>
-                            </div>
-                            <div class="flex flex-col items-center">
-                                <span class="text-5xl text-teal-600 mb-2">⭐</span>
-                                <p class="text-3xl font-bold text-slate-800">NPS > 40</p>
-                                <p class="text-slate-600">Satisfacción del cliente</p>
-                            </div>
-                            <div class="flex flex-col items-center">
-                                <span class="text-5xl text-teal-600 mb-2">🚀</span>
-                                <p class="text-3xl font-bold text-slate-800">Ready for Scale</p>
-                                <p class="text-slate-600">Preparados para escalar</p>
-                            </div>
+                        <h3 class="text-2xl font-bold mb-4">Inversión Solicitada – €200.000</h3>
+                        <p class="text-slate-600 mb-6">Con una inversión de €200.000, Vibemarket podrá acelerar su crecimiento y alcanzar los hitos propuestos. Te invitamos a ser parte activa de este viaje y beneficiarte del éxito conjunto.</p>
+                        <h4 class="text-xl font-bold text-indigo-600 mb-4">Contacto</h4>
+                        <div class="contact-info max-w-md mx-auto mb-8 text-xl space-y-3">
+                            <p class="flex items-center justify-center gap-2">📧 contacto@vibemarket.com</p>
+                            <p class="flex items-center justify-center gap-2">📱 +34 658943293</p>
+                            <p class="flex items-center justify-center gap-2">🌐 <a href="https://www.vibemarket.es" class="text-indigo-600 hover:underline">www.vibemarket.es</a></p>
                         </div>
                     </div>
                 </div>
             </section>
             
-            <!-- Footer/CTA -->
+            <!-- Footer/CTA (Slide final de cierre) -->
             <footer class="bg-slate-900 text-white text-center py-20 px-8">
-                <h2 class="text-4xl font-bold mb-4">¿Preguntas?</h2>
-                <div class="contact-info max-w-md mx-auto mb-8 text-xl space-y-3">
-                    <p class="flex items-center justify-center gap-2">📧 contacto@vibemarket.es</p>
-                    <p class="flex items-center justify-center gap-2">🌐 <a href="https://www.vibemarket.es" class="text-white hover:underline">www.vibemarket.es</a></p>
-                    <p class="flex items-center justify-center gap-2">📱 +34 658943293</p>
-                    <p class="flex items-center justify-center gap-2">💼 LinkedIn: /company/vibemarket</p>
-                </div>
-                <h2 class="text-3xl font-bold mb-4">¡Únete a la Revolución del Marketing!</h2>
-                <p class="text-slate-300 max-w-2xl mx-auto mb-8">Transformemos juntos el marketing digital para PYMEs y autónomos españoles.</p>
+                <img src="https://ragfwduefjziejvhaxkv.supabase.co/storage/v1/object/sign/appimages/logosinfondo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV80MWFiYjY1Mi03NThiLTQxMmEtOWM1NC04NzAxOGNmNzZiZTQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhcHBpbWFnZXMvbG9nb3NpbmZvbmRvLnBuZyIsImlhdCI6MTc1MDg1ODI1MywiZXhwIjoxODEzMDY2MjUzfQ.DbVtrInIMJBzBUKnkUt6hxseSEd-bFZgM2iKIVYdowU" alt="Logo VibeMarket" class="h-40 mb-4 mx-auto">
+                <h2 class="text-4xl font-bold mb-4">¡Gracias por tu tiempo e interés en Vibemarket!</h2>
+                <p class="text-slate-300 max-w-2xl mx-auto mb-8">Esperamos contar contigo para llevar el marketing digital inteligente a cada rincón del tejido empresarial pequeño y mediano en España.</p>
                 
                 <div class="final-stats flex flex-col sm:flex-row gap-8 justify-center mt-12">
                     <div class="text-center">
-                        <div class="text-4xl font-bold text-white">3.38M</div>
-                        <div class="text-slate-300 text-sm">Mercado objetivo</div>
+                        <div class="text-4xl font-bold text-white">2.9M+</div>
+                        <div class="text-slate-300 text-sm">PYMEs en España</div>
                     </div>
                     <div class="text-center">
-                        <div class="text-4xl font-bold text-white">€8.0M</div>
-                        <div class="text-slate-300 text-sm">ARR objetivo 5 años</div>
+                        <div class="text-4xl font-bold text-white">~€0.7M</div>
+                        <div class="text-slate-300 text-sm">ARR objetivo 5 años (Base)</div>
                     </div>
                     <div class="text-center">
-                        <div class="text-4xl font-bold text-white">10x-20x</div>
+                        <div class="text-4xl font-bold text-white">x3.1 - x6.7</div>
                         <div class="text-slate-300 text-sm">ROI proyectado</div>
                     </div>
                 </div>
@@ -711,17 +663,18 @@
                 // ARR data adjusted for consistency with user projections and ARPU
                 arr: {
                     labels: ['Año 0', 'Año 1', 'Año 2', 'Año 3', 'Año 4', 'Año 5'],
-                    // Adjusted ARR in millions (€M) for a smoother, more realistic curve to hit targets
-                    data: [0, 0.65, 1.5, 2.4, 5.0, 8.0] 
+                    // Base Scenario ARR in millions (€M)
+                    data: [0, 0.24, 0.4, 0.55, 0.65, 0.7] 
                 },
                 funding: {
-                    labels: ['Marketing y Adquisición', 'Talento y Personal', 'Operaciones y Legal'],
-                    data: [130, 50, 20] // Adjusted distribution for €200,000 total
+                    labels: ['Desarrollo de Producto', 'Marketing y Ventas', 'Equipo y Operaciones', 'Contingencia'],
+                    data: [100, 60, 30, 10] // Adjusted distribution for €200,000 total
                 },
                 market: {
-                    labels: ['Autónomos y PYMEs No Digitalizadas', 'Digitalizadas'],
-                    // Updated data based on 30% digitalized autónomos and 45% digitalized microempresas (weighted average)
-                    data: [63, 37] // Adjusted to 63% non-digitalized and 37% digitalized
+                    labels: ['PYMEs No Digitalizadas', 'PYMEs Digitalizadas'],
+                    // Based on 38.6% using social media and 57.3% with website. Let's take an average of digital presence.
+                    // (38.6 + 57.3) / 2 = 47.95% digital presence. Let's round to 48% digitalized.
+                    data: [52, 48] // Adjusted to 52% non-digitalized and 48% digitalized (average of social media and website presence)
                 }
             };
             
@@ -761,7 +714,7 @@
                     data: {
                         labels: financialData.arr.labels,
                         datasets: [{
-                            label: 'ARR Proyectado (€M)',
+                            label: 'ARR Proyectado (€M) - Escenario Base',
                             data: financialData.arr.data,
                             fill: true,
                             backgroundColor: 'rgba(79, 70, 229, 0.1)',
@@ -788,7 +741,7 @@
                         datasets: [{
                             label: 'Distribución de Fondos',
                             data: financialData.funding.data,
-                            backgroundColor: ['#4F46E5', '#14B8A6', '#64748B'], // Adjusted colors due to 3 categories
+                            backgroundColor: ['#4F46E5', '#14B8A6', '#64748B', '#F59E0B'], // Added a fourth color for Contingency
                             borderColor: '#f8fafc',
                             hoverOffset: 4
                         }]
@@ -802,7 +755,7 @@
                 new Chart(ctxMarket, {
                     type: 'bar',
                     data: {
-                        labels: ['Mercado Total'],
+                        labels: ['Mercado PYME Total'],
                         datasets: [
                             {
                                 label: financialData.market.labels[0],
@@ -827,7 +780,7 @@
                         plugins: {
                             title: {
                                 display: true,
-                                text: 'Brecha de Digitalización en PYMEs y Autónomos'
+                                text: 'Nivel de Digitalización en PYMEs Españolas'
                             }
                         }
                      }
